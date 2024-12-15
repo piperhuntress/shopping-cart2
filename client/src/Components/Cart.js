@@ -57,6 +57,9 @@ const Cart = () => {
             <tbody>
               {cart.items.map((cart) => (
                 <tr key={cart._id}>
+                  <td>
+                    <input type="checkbox" />
+                  </td>
                   <td>{cart.pcode}</td>
                   <td>
                     <img
